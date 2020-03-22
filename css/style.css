@@ -1,0 +1,99 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.container {
+  text-align: center;
+}
+
+.banner {
+  display: flex;
+  background-image: url(http://www.lucasrlima.com/wp-content/uploads/mg_8886_port.jpg);
+  justify-content: space-around;
+  align-items: center;
+  background-size: cover;
+  background-position: center bottom;
+  color: #e4e4e4;
+  text-shadow: #fafafa;
+  height: 512px;
+  padding: 20px;
+}
+
+.button {
+  background-color: #116dca;
+  /*border: 1px solid white;*/
+  border-radius: 50px;
+  color: white;
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #0c559f;
+}
+
+.cards {
+  padding-top: 16px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  padding-top: 16px;
+  width: 300px;
+  height: 320px;
+  box-shadow: 0 0 5px rgb(230,230,230);;
+}
+
+.card-image {
+  height: 120px;
+  width: 120px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #eeeeee;
+  padding: 8px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 42px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.social-icon {
+  color: #404040;
+}
+
+.social-icon:hover {
+  color: darkblue;
+}
